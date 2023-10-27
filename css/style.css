@@ -63,7 +63,8 @@ footer p{
 }
 
 .h1{
-    margin:2em;
+    margin:1em;
+    padding-top: 25px;
     color:#D9306E;
     font-size: 40px;
 }
@@ -130,5 +131,5 @@ footer p{
 }
 
 #top-text{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
