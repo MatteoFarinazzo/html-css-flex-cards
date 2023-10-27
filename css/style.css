@@ -5,18 +5,39 @@
     font-family: 'Fredoka', sans-serif;
 }
 
+main{
+    text-align:center;
+    width:80%;
+    margin:50px auto;
+}
+
 .button-head{
     border-style: none;
     cursor:pointer;
     background-color: white;
 }
 
+.bg-red{
+    background-color: red;
+}
+
 .logo-he{
     height: 5em;
 }
+
 .flex-center{
     display: flex;
     justify-content: center;
+}
+
+.h1{
+    margin:2em;
+    color:#D9306E;
+    font-weight: bolder;
+}
+
+.flex-pag{
+
 }
 
 #flex-container-header{
