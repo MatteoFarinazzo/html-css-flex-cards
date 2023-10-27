@@ -17,6 +17,14 @@ main{
     background-color: white;
 }
 
+a{
+    text-decoration: none;
+}
+
+main img{
+    width: 150px;
+}
+
 .bg-red{
     background-color: red;
 }
@@ -37,9 +45,31 @@ main{
 }
 
 .flex-pag{
-
+    margin: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
+.flex-par{
+    text-align:left
+}
+
+.flex-te{
+    text-align: right;
+}
+
+.bg-blue{
+    color:white;
+    background-color: #08080D;
+    height: 150px;
+}
+
+.color-blue{
+    color:#67c8ee;
+}
 #flex-container-header{
     margin: 0 auto;
     height:8em;
