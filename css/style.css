@@ -14,7 +14,8 @@ main{
 .button-head{
     border-style: none;
     cursor:pointer;
-    background-color: white;
+    background-color: #475949;
+    color: white;
 }
 
 a{
@@ -22,7 +23,7 @@ a{
 }
 
 main img{
-    width: 150px;
+    width: 120px;
 }
 
 .bg-red{
@@ -54,25 +55,34 @@ main img{
 }
 
 .flex-par{
-    text-align:left
+    text-align:left;
+
+    display:flex;
+    justify-content: flex-start;
+
 }
 
 .flex-te{
-    text-align: right;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
 
 .bg-blue{
     color:white;
     background-color: #08080D;
-    height: 150px;
 }
 
 .color-blue{
     color:#67c8ee;
 }
+
 #flex-container-header{
     margin: 0 auto;
     height:8em;
+    background-color: #475949;
+    box-shadow: #475949;
 
     display:flex;
     justify-content: space-around;
